@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Chart from "../../components/chart/Chart";
 import "./product.css";
-import { productData } from "../../dummyData";
+import { productRows } from "../../dummyData";
 import { Publish } from "@mui/icons-material";
 
 const Product = () => {
@@ -16,7 +16,7 @@ const Product = () => {
       </div>
       <div className="productTop">
         <div className="productTopLeft">
-          <Chart data={productData} dataKey="Sales" title="Sales Performance" />
+          <Chart data={productRows} dataKey="Sales" title="Sales Performance" />
         </div>
         <div className="productTopRight">
           <div className="productInfoTop">
