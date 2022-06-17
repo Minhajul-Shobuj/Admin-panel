@@ -12,7 +12,6 @@ import {
   WorkOutline,
 } from "@mui/icons-material";
 import React from "react";
-import { Link } from "react-router-dom";
 import { BarChart } from "recharts";
 import "./sidebar.css";
 
